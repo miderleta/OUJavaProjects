@@ -1,0 +1,25 @@
+boolean yesClicked;
+String output;
+
+//asks user to click a button
+yesClicked = OUDialog.confirm("Please click a button?");
+
+//tells the user which button he/she clicked
+if (yesClicked)
+{
+	output = "Yes";
+}
+else
+{	
+	output = "No";
+}
+OUDialog.alert("You have clicked " + output + " button.");
+
+if (OUDialog.confirm("Please click a button?"))
+{
+	OUDialog.alert("You have clicked 'YES' button.");
+}
+else
+{	
+	OUDialog.alert("You have clicked 'NO' button.");
+}

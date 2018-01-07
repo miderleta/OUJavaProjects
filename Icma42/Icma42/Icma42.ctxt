@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Icma42()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Icma42\r\n
+comment1.params=claimValue\ verificationCode\ secretKey
+comment1.target=boolean\ verifyWin(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\nTakes\ three\ arguments\:-\ \r\n\ claimValue\ -\ an\ int\ value\ representing\ the\ value\ claimed\ by\ the\ user\ in\ pounds\r\n\ verificationCode\ -\ A\ String\ representing\ the\ verification\ code\ printed\ on\ the\ card\r\n\ secretKey\ -\ a\ String\ representing\ the\ secret\ key\ used\ to\ validate\ the\ claim\r\n\r\n\ Iterates\ over\ the\ characters\ in\ the\ Strings\ adding\ the\ position\ of\ matches\r\n\ and\ subtracting\ the\ position\ of\ mis-matches\ to\ determine\ the\ prize\ value\r\n\ The\ claim\ is\ valid\ if\ the\ amount\ claimed\ is\ equal\ to\ the\ prize\ value\ determined.\r\n\ Returns\ a\ boolean\ value\ true\ if\ the\ claim\ is\ valid\ and\ false\ otherwise.\r\n
+numComments=2

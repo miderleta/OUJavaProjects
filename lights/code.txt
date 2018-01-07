@@ -1,0 +1,4 @@
+Lightbulb kitchen = new Lightbulb();
+kitchen.toString();
+kitchen.isLightON();
+kitchen.setLight();

@@ -1,0 +1,9 @@
+Icma42 answer = new Icma42();
+answer.verifyWin(1,"HPKLTC","FQRTKJ");  //falase
+answer.verifyWin(1,"HPKLTC","HPKWTD");  //true
+answer.verifyWin(3,"FQXTKN","HPKWTD");  //false
+answer.verifyWin(3,"FQXTKN","FQRTKJ");  //true
+answer.verifyWin(5,"HPKLTC","FQRTKJ");  //false
+answer.verifyWin(5,"HPKLTC","FPRTTC");  //true
+answer.verifyWin(5,"HPKLTCQ","FPRTTC"); //true
+              

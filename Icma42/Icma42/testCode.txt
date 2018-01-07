@@ -1,0 +1,7 @@
+verifyWin(1,"HPKLTC","FQRTKJ");  //falase
+verifyWin(1,"HPKLTC","HPKWTD");  //true
+verifyWin(3,"FQXTKN","HPKWTD");  //false
+verifyWin(3,"FQXTKN","FQRTKJ");  //true
+verifyWin(5,"HPKLTC","FQRTKJ");  //false
+verifyWin(5,"HPKLTC","FPRTTC");  //true
+verifyWin(5,"HPKLTCQ","FPRTTC"); //true

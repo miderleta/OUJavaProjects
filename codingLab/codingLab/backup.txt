@@ -1,0 +1,27 @@
+Student lerner = new Student();
+TMA michalTMA = new TMA(lerner, "TMA02", 10, false);
+
+//setting up a student
+lerner.setForename("Michal");
+lerner.setSurname("Derleta");
+lerner.setPI("1070868");
+lerner.setAge(32);
+
+//testing
+lerner.getForename();
+lerner.getSurname();
+lerner.getPI();
+lerner.getAge();
+
+//setting up the TMA
+michalTMA.setLerner(lerner);
+michalTMA.setAssignmentNo("TMA03");
+michalTMA.setMark(100);
+michalTMA.setStatus(true);
+
+//testing TMA Class
+michalTMA.getLerner();
+michalTMA.getMark();
+michalTMA.getAssignmentNo();
+michalTMA.getStatus();
+michalTMA.toString();
