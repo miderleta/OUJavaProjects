@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=CurrentAccount()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ CurrentAccount\r\n
+comment1.params=aHolder\ aNumber\ aBalance\ aLimit\ aPin
+comment1.target=CurrentAccount(java.lang.String,\ java.lang.String,\ double,\ double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ calss\ CurrentAccount,\r\n\ which\ sets\ the\ values\ of\ holder,\ number,\ balance,\r\n\ creditLimit\ and\ pinNum\ to\ the\ arguments\ aHolder,\r\n\ aNumber,\ aBalance,\ aLimit,\ and\ aPin\ respectively.\r\n
+comment2.params=
+comment2.target=double\ getCreditLimit()
+comment2.text=\r\n\ Returns\ the\ credit\ limit\ of\ the\ receiver.\r\n
+comment3.params=aLimit
+comment3.target=void\ setCreditLimit(double)
+comment3.text=\r\n\ Sets\ the\ creditLimit\ of\ the\ receiver\ to\ the\r\n\ argument\ aLimit\r\n
+comment4.params=
+comment4.target=java.lang.String\ getPinNum()
+comment4.text=\r\n\ Returns\ the\ pinNum\ of\ the\ receiver.\r\n
+comment5.params=aPin
+comment5.target=void\ setPinNum(java.lang.String)
+comment5.text=\r\n\ Sets\ the\ pinNum\ of\ the\ receiver\ to\ the\ argument\ aPin.\r\n
+comment6.params=
+comment6.target=double\ availableToSpend()
+comment6.text=\r\n\ Calculates\ and\ returns\ the\ amount\ available\r\n\ to\ spend;\ the\ total\ of\ the\ receivers's\ balance\r\n\ and\ creditLimit.\r\n
+comment7.params=anAmount
+comment7.target=boolean\ debit(double)
+comment7.text=\r\n\ If\ the\ amount\ availibleToSpend\ of\ the\ receiver\ is\ equal\ to\ or\ greater\ than\ the\ argument\ anAmount,\r\n\ the\ balance\ of\ the\ receiver\ is\ debited\ by\ the\ argument\ anAmount\ and\ the\ method\r\n\ returns\ true.\r\n\r\n\ If\ the\ balance\ of\ the\ receiver\ is\ not\ equal\ to\ or\ greater\ than\ the\ argument\r\n\ anAmount,\ the\ method\ simply\ returns\ false.\r\n
+numComments=8

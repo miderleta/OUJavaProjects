@@ -1,0 +1,4 @@
+Account accountOne = new Account("Michal", "0000001", 500);
+CurrentAccount accountTwo = new CurrentAccount("Emma", "0000002", 500, 400, "1111");
+accountTwo.availableToSpend();
+accountTwo.debit(500);
