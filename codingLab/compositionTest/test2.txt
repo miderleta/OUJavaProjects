@@ -1,0 +1,8 @@
+Engine diesel = new Engine();
+Car merc = new Car(diesel);
+
+merc.start();
+merc.getRevs();
+merc.accelerate();
+merc.decelerate();
+merc.stop();

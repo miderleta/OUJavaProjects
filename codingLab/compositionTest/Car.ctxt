@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=anEngine
+comment0.target=Car(Engine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Car\r\n
+comment1.params=
+comment1.target=void\ start()
+comment1.text=\r\n\ Sends\ a\ message\ to\ eng\ to\ start\ the\ engine.\r\n\ if\ unsucessfull\ displays\ a\ messge.\r\n
+comment2.params=
+comment2.target=int\ getRevs()
+comment2.text=\r\n\ Returns\ the\ value\ of\ the\ engine's\ variable\ revs\r\n
+comment3.params=
+comment3.target=void\ accelerate()
+comment3.text=\r\n\ Enable\ the\ user\ to\ increase\ the\ value\ of\ revs\ (accelerate);\r\n\ will\ report\ an\ error\ messge\ if\ engine\ isn't\ running\ or\ user\ blew\ it\ up.\r\n
+comment4.params=
+comment4.target=void\ decelerate()
+comment4.text=\r\n\ Enable\ the\ user\ to\ decrease\ the\ value\ of\ revs\ (de-celerate);\r\n\ will\ report\ an\ error\ messge\ if\ engine\ isn't\ running\ or\ is\ stalled.\r\n
+comment5.params=
+comment5.target=void\ stop()
+comment5.text=\r\n\ Enable\ the\ user\ to\ stop\ and\ idle\ the\ revs;\r\n\ will\ report\ an\ error\ messge\ if\ engine\ isn't\ running;\r\n\ if\ it\ is,\ then\ it\ will\ gardully\ decrease\ the\ value\ of\ revs.\r\n
+numComments=6
