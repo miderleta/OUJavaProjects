@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Engine()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Engine\r\n
+comment1.params=
+comment1.target=int\ getRevs()
+comment1.text=\r\n\ Returns\ the\ amout\ of\ revs\ of\ the\ receiver.\r\n
+comment2.params=aRevs
+comment2.target=void\ setRevs(int)
+comment2.text=\r\n\ sets\ the\ amout\ of\ revs\ of\ the\ receiver\ to\ the\ argument\ aRevs.\r\n
+comment3.params=
+comment3.target=boolean\ isRunning()
+comment3.text=\r\n\ Returns\ True\ if\ the\ value\ of\ revs\ is\ higher\ than\ 0\r\n\ -\ engine\ is\ running.\r\n
+comment4.params=
+comment4.target=boolean\ startEngine()
+comment4.text=\r\n\ Checks\ if\ engine\ isRunning().\ If\ yes\ returns\ False,\ else\r\n\ Returns\ True\ and\ increses\ the\ value\ of\ revs\ by\ REVSINC\ (starts\ the\ engine).\r\n
+comment5.params=
+comment5.target=boolean\ incRevs()
+comment5.text=\r\n\ increases.\r\n
+comment6.params=
+comment6.target=boolean\ decRevs()
+comment7.params=
+comment7.target=void\ reduceToIdling()
+numComments=8
