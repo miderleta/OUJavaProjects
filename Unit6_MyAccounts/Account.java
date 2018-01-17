@@ -139,4 +139,15 @@ public class Account
          return false;
       }
    }
+   
+   /**
+    * Returns true if receiver is equivalent to (has the same
+    * state as) the argument anAccount, false otherwise.
+   */
+   public boolean equals(Account anAccount)
+   {
+      return (this.getBalance() == anAccount.getBalance())
+         && this.getNumber().equals(anAccount.getNumber())
+         && this.getHolder().equals(anAccount.getHolder());
+   }
 }
