@@ -102,4 +102,34 @@ public class CurrentAccount extends Account
       }
    }
    
+   /**
+    * Returns true if the pinNum of the receiver matches
+    * the argument aPin, otherwise returns false.
+    */
+   public boolean checkPin(String aPin)
+   {
+      return this.getPinNum().equals(aPin);
+   }
+   
+   /**
+    * Prints to the Display Pane the holder, number and
+    * the balance of the receiver.
+    */
+   public void displayDetails()
+   {
+      System.out.println("Account Holder: " + this.getHolder() + "/n"
+                        + "Account Number: " + this.getNumber() + "/n"
+                        + "Account Balance: " + this.getBalance());
+   }
+   
+   /**
+    * Returns true if receiver is equivalent to (has the same
+    * state as) the argument anAccount, false otherwise.
+    */
+   public boolean equals(CurrentAccount anAccount)
+   {
+      return super.equals(anAccount)
+         && this.getPinNum().equals(anAccount.getPinNum())
+         && this.getCreditLimit() == anAccount.getCreditLimit();
+   }
 }

@@ -1,0 +1,2 @@
+Business a = new Business("MyBusiness", "Michal", "Belfast", 2018);
+a.toString();

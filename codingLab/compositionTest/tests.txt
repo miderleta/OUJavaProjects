@@ -1,0 +1,7 @@
+Engine diesel = new Engine();
+diesel.getRevs();
+diesel.isRunning();
+diesel.startEngine();
+diesel.incRevs();
+diesel.decRevs();
+diesel.reduceToIdling();
