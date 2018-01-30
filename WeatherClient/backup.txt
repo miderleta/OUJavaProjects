@@ -1,0 +1,4 @@
+WeatherFrog wendy = new WeatherFrog();
+Daisy dorian = new Daisy();
+MetOffice bracknell = new MetOffice(wendy, dorian);
+bracknell.weatherReport();
