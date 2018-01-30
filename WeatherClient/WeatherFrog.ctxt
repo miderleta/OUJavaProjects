@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WeatherFrog()
+comment0.text=\ \r\n\ Constructor\ for\ WeatherFrog.\r\n
+comment1.params=
+comment1.target=void\ sun()
+comment1.text=\r\n\ Causes\ the\ receiver\ to\ turn\ yellow,\ jump\ twice,\ and\ output\r\n\ the\ message\ "Sun\ on\ the\ way\ -\ you\ can\ come\ out\ now".\r\n
+comment2.params=
+comment2.target=void\ rain()
+comment2.text=\r\n\ Causes\ the\ the\ receiver\ to\ turn\ blue,\ croak\ and\ output\r\n\ the\ message\ "Rain\ \ on\ the\ way\ -\ under\ a\ lilypad\ everyone\!"\r\n
+numComments=3

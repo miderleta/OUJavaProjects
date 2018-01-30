@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ rain()
+comment0.text=\r\n\ Performs\ an\ arbitrary\ action\ in\ response\ to\r\n\ message\ rain().\r\n
+comment1.params=
+comment1.target=void\ sun()
+comment1.text=\r\n\ Performs\ an\ arbitrary\ action\ in\ response\ to\r\n\ message\ sun().\r\n
+numComments=2

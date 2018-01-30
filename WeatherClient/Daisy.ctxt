@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Daisy()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Daisy.\r\n
+comment1.params=
+comment1.target=void\ sun()
+comment1.text=\ \r\n\ Causes\ the\ receiver\ to\ print\ "Opening".\ \r\n
+comment2.params=
+comment2.target=void\ rain()
+comment2.text=\ \r\n\ Causes\ the\ receiver\ to\ print\ "Closing".\ \r\n
+numComments=3
