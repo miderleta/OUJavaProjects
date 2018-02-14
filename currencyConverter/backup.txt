@@ -1,0 +1,3 @@
+CurrencyConverter euroConverter = new CurrencyConverter("euros", 1.45);
+euroConverter.displayCommission(60);
+euroConverter.reportCostOfCurrency(60);
