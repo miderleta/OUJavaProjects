@@ -1,0 +1,19 @@
+List<String> word = new ArrayList<>();
+      word.add("F");
+      word.add("R");
+      word.add("O");
+      word.add("G");
+      System.out.println(word); 
+
+      word.remove(1);
+      System.out.println(word);
+      word.set(0, "L");
+      System.out.println(word);
+      word.set(1, "A");
+      System.out.println(word);
+      word.set(2, "D");
+      System.out.println(word);
+      word.add(1, "0");
+      System.out.println(word);
+      word.set(0, "T");
+      System.out.println(word);

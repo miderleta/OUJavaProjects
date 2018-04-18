@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=client
+comment0.target=java.util.Set\ gatherInterests(java.lang.String)
+comment0.text=\r\n\ Creates\ a\ set\ referenced\ by\ the\ variable\ interestsSet\ and\ then\r\n\ repeatedly\ displays\ a\ dialog\ box\ (until\ cancel\ is\ pressed)\ in\ \r\n\ order\ to\ gather\ a\ client's\ interests\ and\ add\ them\ to\ interestsSet.\ \r\n\ Finally\ the\ method\ returns\ interestsSet.\r\n
+comment1.params=clientA\ clientB
+comment1.target=void\ run(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Finds\ and\ prints\ the\ common\ interests\ of\ a\ pair\ of\ clients.\r\n
+comment2.params=
+comment2.target=void\ printPositives()
+numComments=3

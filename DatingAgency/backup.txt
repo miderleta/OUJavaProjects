@@ -1,0 +1,5 @@
+DatingAgency hero = new DatingAgency();
+hero.gatherInterests("Martin");
+hero.run("Martin", "James");
+Set<String> interestsSet = new HashSet<>();
+interestsSet.add("a");

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DatingAgency()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ DatingAgency\r\n
+comment1.params=client
+comment1.target=java.util.Set\ gatherInterests(java.lang.String)
+comment1.text=\r\n\ Creates\ a\ set\ referenced\ by\ the\ variable\ interestsSet\r\n\ and\ then\ repeatedly\ displays\ a\ dialog\ box\r\n\ (until\ cancel\ is\ pressed)\ in\ order\ to\ gather\r\n\ a\ client's\ interests\ and\ add\ them\ to\ interestsSet.\r\n\ Finally\ the\ method\ returns\ interestsSet.\r\n
+comment2.params=clientA\ clientB
+comment2.target=void\ run(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Collects\ and\ displays\ interests\ for\ two\ clients.\r\n
+numComments=3
