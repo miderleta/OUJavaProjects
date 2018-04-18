@@ -1,0 +1,23 @@
+List<ComparableFrog> frogList = new ArrayList<>();
+      ComparableFrog algy = new ComparableFrog();
+      algy.setPosition(3);
+      ComparableFrog prudence = new ComparableFrog();
+      prudence.setPosition(1);
+      ComparableFrog lena = new ComparableFrog();
+      lena.setPosition(2);
+      frogList.add(algy);
+      frogList.add(prudence);
+      frogList.add(lena);
+
+System.out.println("Froggery before sorting: ");
+      for (ComparableFrog eachFrog : frogList)
+      {
+         System.out.print(eachFrog + " ");
+      }
+Collections.sort(frogList);
+System.out.println();
+      System.out.println("Froggery after sorting: ");
+      for (ComparableFrog eachFrog : frogList)
+      {
+         System.out.print(eachFrog + " ");
+      }

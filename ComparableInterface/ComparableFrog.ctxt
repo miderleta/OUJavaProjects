@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ComparableFrog()
+comment0.text=\r\n\ Construct\ a\ ComparableFrog\ with\ default\ state.\r\n
+comment1.params=anotherFrog
+comment1.target=int\ compareTo(ComparableFrog)
+comment1.text=\r\n\ Compares\ the\ receiver\ with\ the\ argument\ and\ returns\:\r\n\ \r\n\ a\ negative\ result\ if\ the\ receiver\ is\ to\ the\ left\ of\ the\ argument.\r\n\ a\ positive\ result\ if\ the\ receiver\ is\ to\ the\ right\ of\ the\ argument.\r\n\ zero\ if\ the\ two\ are\ at\ the\ same\ position.\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Overrides\ the\ inherited\ method\ to\ keep\ the\ output\ simple\ \r\n\ when\ we\ display\ collection\ of\ comparable\ frogs.\r\n
+numComments=3

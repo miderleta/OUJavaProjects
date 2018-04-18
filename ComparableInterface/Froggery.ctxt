@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ sortFrogs()
+comment0.text=\r\n\ Demonstrates\ sorting\ a\ list\ containing\ ComparableFrog\ objects.\ \r\n
+comment1.params=
+comment1.target=void\ treeFrogs()
+comment1.text=\r\n\ Demonstrates\ adding\ ComparableFrog\ objects\ to\ a\ TreeSet.\r\n
+numComments=2
